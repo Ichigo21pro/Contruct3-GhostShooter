@@ -178,7 +178,8 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 0
+						"zElevation": 0,
+						"blendMode": "additive"
 					}
 				},
 				{

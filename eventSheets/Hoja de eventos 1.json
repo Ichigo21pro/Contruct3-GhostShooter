@@ -87,6 +87,49 @@
 				}
 			],
 			"sid": 419549389100349
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 480971893492558
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Monstruo",
+					"sid": 938247361898214,
+					"parameters": {
+						"angle": "random(360)"
+					}
+				}
+			],
+			"sid": 381961416016690
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Monstruo",
+					"sid": 853400654584658
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "Monstruo",
+					"sid": 420468210148968,
+					"parameters": {
+						"x": "Jugador.X",
+						"y": "Jugador.Y"
+					}
+				}
+			],
+			"sid": 458986115168189
 		}
 	],
 	"sid": 184862547072390
