@@ -50,6 +50,43 @@
 				}
 			],
 			"sid": 830860440192127
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bala",
+					"sid": 706720115328494,
+					"parameters": {
+						"object": "Monstruo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Monstruo",
+					"sid": 789318523840960
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Bala",
+					"sid": 929559786364811,
+					"parameters": {
+						"object": "ExplosionDisparo",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bala",
+					"sid": 689536228631433
+				}
+			],
+			"sid": 419549389100349
 		}
 	],
 	"sid": 184862547072390
