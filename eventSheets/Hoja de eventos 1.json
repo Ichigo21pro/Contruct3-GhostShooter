@@ -195,6 +195,56 @@
 				}
 			],
 			"sid": 404492963891197
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 133297033778082,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 984706241524237,
+					"parameters": {
+						"object-to-create": "Monstruo",
+						"layer": "0",
+						"x": "LayoutWidth + 100",
+						"y": "random(LayoutHeight)",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
+			"sid": 617561077144629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Monstruo",
+					"sid": 527477738104335,
+					"parameters": {
+						"object": "Jugador"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Jugador",
+					"sid": 219077971975668
+				}
+			],
+			"sid": 245520862724183
 		}
 	],
 	"sid": 184862547072390
