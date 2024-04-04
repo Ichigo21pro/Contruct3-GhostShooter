@@ -2,6 +2,16 @@
 	"name": "Hoja de eventos 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 315581542253687
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -165,6 +175,15 @@
 					"id": "destroy",
 					"objectClass": "Monstruo",
 					"sid": 848968212800898
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 804345076407563,
+					"parameters": {
+						"variable": "Score",
+						"value": "10"
+					}
 				}
 			],
 			"sid": 404492963891197
