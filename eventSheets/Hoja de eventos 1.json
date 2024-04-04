@@ -65,9 +65,13 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "Monstruo",
-					"sid": 789318523840960
+					"sid": 697976139861653,
+					"parameters": {
+						"instance-variable": "Vida",
+						"value": "1"
+					}
 				},
 				{
 					"id": "spawn-another-object",
@@ -130,6 +134,40 @@
 				}
 			],
 			"sid": 458986115168189
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Monstruo",
+					"sid": 983401811086206,
+					"parameters": {
+						"instance-variable": "Vida",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Monstruo",
+					"sid": 582937218937067,
+					"parameters": {
+						"object": "ExplosionDisparo",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Monstruo",
+					"sid": 848968212800898
+				}
+			],
+			"sid": 404492963891197
 		}
 	],
 	"sid": 184862547072390

@@ -3,7 +3,15 @@
 	"plugin-id": "Sprite",
 	"sid": 882811929450546,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Vida",
+			"type": "number",
+			"desc": "Es la vida del monstruo que se va reduciendo",
+			"show": true,
+			"sid": 909192429078278
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",

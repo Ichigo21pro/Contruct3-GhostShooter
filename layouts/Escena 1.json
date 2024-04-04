@@ -192,7 +192,9 @@
 						"live-preview": false
 					},
 					"uid": 8,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
@@ -233,7 +235,9 @@
 						"live-preview": false
 					},
 					"uid": 9,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
@@ -274,7 +278,9 @@
 						"live-preview": false
 					},
 					"uid": 10,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
@@ -315,7 +321,9 @@
 						"live-preview": false
 					},
 					"uid": 11,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
@@ -356,7 +364,9 @@
 						"live-preview": false
 					},
 					"uid": 12,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
@@ -397,7 +407,9 @@
 						"live-preview": false
 					},
 					"uid": 13,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
@@ -438,7 +450,9 @@
 						"live-preview": false
 					},
 					"uid": 14,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Vida": 5
+					},
 					"behaviors": {
 						"Bala": {
 							"properties": {
