@@ -22,6 +22,34 @@
 				}
 			],
 			"sid": 492216701436318
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 293508698027595,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Jugador",
+					"sid": 467833198225863,
+					"parameters": {
+						"object": "Bala",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 830860440192127
 		}
 	],
 	"sid": 184862547072390
