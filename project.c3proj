@@ -29,6 +29,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Fondo en mosaico",
 			"author": "Scirra",
@@ -86,7 +93,8 @@
 			"Jugador",
 			"Bala",
 			"ExplosionDisparo",
-			"Monstruo"
+			"Monstruo",
+			"scoreTexto"
 		],
 		"subfolders": []
 	},
