@@ -4,7 +4,13 @@
 	"sid": 708002676549420,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Desvanecer",
+			"sid": 844736195311181
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

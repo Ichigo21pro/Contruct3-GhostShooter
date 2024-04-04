@@ -4,7 +4,18 @@
 	"sid": 242520818083523,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bala",
+			"sid": 295223557812440
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestruirFueraDeLaEscena",
+			"sid": 699145286500953
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
